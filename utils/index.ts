@@ -1,7 +1,7 @@
-import {BaseEntityInterface} from '../prototypes';
+import { GameObject } from '../prototypes';
 
 export const utils = {
-    getObjectsByPrototype<T extends BaseEntityInterface>(prototype: T): T[] {
+    getObjectsByPrototype<T extends GameObject>(prototype: T): T[] {
         return [];
     }
 }

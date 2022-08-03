@@ -1,13 +1,16 @@
-export const WORK = ''
-export const CARRY = ''
-export const MOVE = ''
-export const HEAL = ''
-export const ATTACK = ''
-export const RANGED_ATTACK = ''
-export const RESOURCE_ENERGY = ''
-export const ERR_NOT_IN_RANGE = ''
+export const OK = 0
+export const ERR_NOT_OWNER = -1
+export const WORK = 'work'
+export const CARRY = 'carry'
+export const MOVE = 'move'
+export const HEAL = 'heal'
+export const ATTACK = 'attack'
+export const RANGED_ATTACK = 'ranged_attack'
+export const RESOURCE_ENERGY = 'energy'
+export const ERR_NOT_IN_RANGE = -9
 
 export const constants = {
+    OK,
     WORK,
     CARRY,
     MOVE,

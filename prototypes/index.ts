@@ -1,19 +1,7 @@
-import Store from './store'
-
-export interface BaseEntityInterface {
-    my: boolean
-}
-
-export interface Creep extends BaseEntityInterface {
-    store(): Store
-}
-
-export interface StructureSpawn extends BaseEntityInterface{
-    spawnCreep(body: string[]): Array<object>
-}
-export interface Source extends BaseEntityInterface{
-
-}
+import GameObject from './game-object'
+import Creep from './creep'
+import StructureSpawn from './spawn'
+import Source from './source'
 
 export const prototypes = {
     Creep: <Creep> {},
